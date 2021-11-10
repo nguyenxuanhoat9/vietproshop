@@ -1,0 +1,16 @@
+tạo component product-item để sử dụng ở các trang khi cần 
+product-item cần : image 
+                   name
+                   price
+                   is_featured
+
+                
+
+
+constants/app.js : Khai báo các đường dẫn BASE_URL, BASE_API 
+
+services/Api.js : Viết API lấy thông tin sản phẩm qua phương thức Get của Http từ Http.js
+
+services/Http.js : create baseURL  
+
+ultils/index.js : getImageProduct với tham số là tên hình ảnh, lấy theo URL 
